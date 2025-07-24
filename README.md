@@ -1,4 +1,4 @@
-# Employee Performance Appraisal System College Domain
+# Employee Performance Appraisal System
 The Employee Performance Appraisal System is a web-based application designed to streamline and enhance the performance evaluation process within a college domain. The system is built using HTML, CSS, Java Servlets, and JSP technologies.
 
 ## Key Features
