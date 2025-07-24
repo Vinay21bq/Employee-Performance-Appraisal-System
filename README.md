@@ -1,29 +1,87 @@
-# Employee Performance Appraisal System
-The Employee Performance Appraisal System is a web-based application designed to streamline and enhance the performance evaluation process within a college domain. The system is built using HTML, CSS, Java Servlets, and JSP technologies.
+# 💼 Employee Performance Appraisal System
 
-## Key Features
+A web-based performance evaluation platform tailored for academic institutions. This system simplifies and automates the faculty appraisal process, enabling transparent and structured evaluations by multiple stakeholders.
 
-#### User Roles: 
-###### 1.Principal
-###### 2.Head of Department (HOD)
-###### 3.Faculty
+## 🔍 Overview
 
-#### Workflow :
+The Employee Performance Appraisal System is designed to digitize and streamline faculty performance reviews within a college environment. Built with Java Servlets and JSP for the backend and standard web technologies for the frontend, it offers role-based access and a structured approval workflow.
 
-##### Appraisal Form Release
-The HOD selects the academic year and releases the appraisal form.
-Faculty members of the respective department receive a link to fill out the form.
-##### Form Submission
-Faculty members complete and submit the appraisal form.
-Submitted forms are sent to the respective HOD for review.
-##### Review Process:
-The HOD reviews the submitted forms.
-Once reviewed, the forms are forwarded to the Principal.
-##### Status Updates:
-The status of the appraisal form is continuously updated.
-Status updates are visible to the HOD, Principal, and the respective faculty member.
+---
 
-#### Technologies Used:
-###### Frontend: HTML, CSS
-###### Backend: Java Servlets, JSP
-###### Database: Oracle DB
+## 👥 User Roles
+
+- **Faculty:** Fills and submits self-appraisal forms.
+- **Head of Department (HOD):** Releases forms, reviews faculty submissions, and forwards to the Principal.
+- **Principal:** Provides final appraisal approval.
+
+---
+
+## 🔄 Workflow
+
+1. **Appraisal Form Release**  
+   - HOD selects the academic year and initiates the form distribution.
+   - Faculty receives access to fill in their self-evaluation forms.
+
+2. **Form Submission**  
+   - Faculty submits the completed forms.
+   - Forms are routed to the HOD for departmental-level review.
+
+3. **Review & Forwarding**  
+   - HOD reviews and comments.
+   - Approved forms are forwarded to the Principal.
+
+4. **Final Approval**  
+   - Principal reviews submitted appraisals.
+   - Marks final status: Approved, Needs Revision, or Rejected.
+
+5. **Status Tracking**  
+   - All parties (Faculty, HOD, Principal) can track the appraisal status in real-time.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML5, CSS3  
+- **Backend:** Java Servlets, JSP  
+- **Database:** Oracle DB  
+
+---
+
+## ✅ Key Highlights
+
+- Role-based dashboard for each user type  
+- Real-time status updates and tracking  
+- Clean and intuitive UI  
+- Secure and organized workflow for academic performance evaluations  
+
+---
+
+## 📁 Project Structure
+
+├── src/
+│ └── main/
+│ ├── java/com/example/servlet/
+│ └── webapp/
+├── .settings/
+├── README.md
+├── Database_Schemas.txt
+├── .project
+├── .classpath
+
+---
+
+## 🚀 How to Run
+
+1. Import the project into Eclipse (or any Java IDE).
+2. Configure Apache Tomcat server.
+3. Deploy the project as a Dynamic Web Project.
+4. Set up the Oracle DB and import schema from `Database_Schemas.txt`.
+5. Launch the application in browser via `localhost`.
+
+---
+
+## 📬 Contact
+
+For queries, contact [gottamvinay6@gmail.com](mailto:gottamvinay6@gmail.com)
+
+---
