@@ -56,20 +56,6 @@ The Employee Performance Appraisal System is designed to digitize and streamline
 
 ---
 
-## 📁 Project Structure
-Employee-Performance-Appraisal-System
-│
-├── .settings/                   # Eclipse project settings
-├── src/
-│   └── main/
-│       ├── java/               # Java backend (Servlets, DAO)
-│       └── webapp/             # Frontend (HTML, JSP, CSS, configs)
-│
-├── Database_Schemas.txt        # DB schema info
-├── README.md                   # Project documentation
-├── .classpath / .project       # Eclipse metadata
-
-
 ## 🚀 How to Run
 
 1. Import the project into Eclipse (or any Java IDE).
